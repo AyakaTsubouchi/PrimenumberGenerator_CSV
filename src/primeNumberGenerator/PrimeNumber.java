@@ -9,7 +9,7 @@ public class PrimeNumber {
 	       //Empty String
 	       ArrayList<Integer> primeNumbers = new ArrayList<Integer>();
 
-	       for (i = 1; i <= 100; i++)         
+	       for (i = 1; i <= 99999; i++)         
 	       { 		  	  
 	          int counter=0; 	  
 	          for(num =i; num>=1; num--)

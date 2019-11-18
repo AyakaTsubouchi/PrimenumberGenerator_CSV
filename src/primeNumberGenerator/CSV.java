@@ -17,8 +17,11 @@ public class CSV extends PrimeNumber implements Icsv{
 	    try {
 	      fileWriter = new FileWriter("prime.csv");
 	      for(int i = 0; i< myprime.size(); i++) {
-	    	  fileWriter.write(myprime.get(i));	    		  
+	    	  //fileWriter.write("helloß");	 
+	    	  fileWriter.write(myprime.get(i).toString());	
+	    	  fileWriter.write(COMMA);	
 	    	  }
+	      fileWriter.close();
 	    }catch (IOException e) {
 	    	        e.printStackTrace();
 	          }
