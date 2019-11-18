@@ -25,10 +25,10 @@ public class PrimeNumber {
 		     primeNumbers.add(i);
 		  }	
 	       }
-	       for(int i1 = 0; i1 < primeNumbers.size(); i1++) {
-	    	   
-	    	   System.out.println(primeNumbers.get(i1));
-	       }
+//	       for(int i1 = 0; i1 < primeNumbers.size(); i1++) {
+//	    	   
+//	    	   System.out.println(primeNumbers.get(i1));
+//	       }
 		return primeNumbers;
 			  
 		  }

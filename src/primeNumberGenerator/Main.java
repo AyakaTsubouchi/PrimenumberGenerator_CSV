@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CSV extends PrimeNumber implements Icsv{
+public class Main extends PrimeNumber implements Icsv{
 	public static void main(String[] args) {
 	
 	 List<PrimeNumber> primeNumList = new ArrayList();
