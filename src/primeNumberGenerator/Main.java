@@ -10,6 +10,7 @@ public class Main extends PrimeNumber implements Icsv{
 	
 	 List<PrimeNumber> primeNumList = new ArrayList();
 	 PrimeNumber myob = new PrimeNumber();
+	
 	 ArrayList<Integer> myprime = myob.primeNumber();
 	
 	 FileWriter fileWriter = null;
@@ -22,6 +23,7 @@ public class Main extends PrimeNumber implements Icsv{
 	    	  fileWriter.write(COMMA);	
 	    	  }
 	      fileWriter.close();
+	      System.out.println(myprime);
 	    }catch (IOException e) {
 	    	        e.printStackTrace();
 	          }

@@ -1,5 +1,7 @@
 package primeNumberGenerator;
 import java.util.ArrayList;
+import java.util.Scanner;
+
 
 public class PrimeNumber {
 
@@ -8,8 +10,14 @@ public class PrimeNumber {
 	       int num =0;
 	       //Empty String
 	       ArrayList<Integer> primeNumbers = new ArrayList<Integer>();
-
-	       for (i = 1; i <= 99999; i++)         
+	       Scanner myobj = new Scanner(System.in);  // Create a Scanner object
+	       System.out.println("Enter the length");
+	       String input1 = myobj.nextLine();
+	       String input2 = input1;
+	       int input = Integer.parseInt(input2);
+	       
+	      
+	       for (i = 1; i <= input; i++)         
 	       { 		  	  
 	          int counter=0; 	  
 	          for(num =i; num>=1; num--)
